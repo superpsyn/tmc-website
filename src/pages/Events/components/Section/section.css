@@ -1,0 +1,24 @@
+/* Section.css */
+
+/* Custom button gloss sweep effect */
+.button-sweep {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .button-sweep::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -110%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3); /* Adjust opacity for desired gloss */
+    transform: skewX(-25deg);
+    transition: left 0.5s ease-in-out;
+  }
+  
+  .button-sweep:hover::before {
+    left: 110%;
+  }
+  
