@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section.css'; // Import your custom CSS file
+import '/src/pages/Events/components/Section/section.css'; // Import your custom CSS file
 
 const Section = () => {
   // Sample events array with a registerUrl property for each event.
